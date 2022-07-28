@@ -1,0 +1,63 @@
+.CardList{
+    gap: 12px;
+    display: flex;
+
+}
+.card{
+    width: 200px;
+    height: 180px;
+    border: 3px solid rgba(243, 243, 243, 0.508);
+    background-color: rgba(169, 169, 169, 0.279);
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.btnAll{
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btnde{
+    width: 130px;
+    height: 15px;
+    border-radius: 15px;
+    background: rgba(242, 139, 5, 0.224);
+    
+    border: none;
+    }
+    .btnde:before {
+    height: 0%;
+    width: 2px;
+    }
+    .btnde:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+    }
+
+.btnfn{
+    margin-left: 10px;
+    width: 130px;
+    height: 15px;
+    border-radius: 15px;
+    background: rgba(242, 139, 5, 0.224);
+    
+    border: none;
+    }
+    .btnfn:before {
+    height: 0%;
+    width: 2px;
+    }
+    .btnfn:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+    }

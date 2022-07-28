@@ -1,0 +1,14 @@
+.Sup{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Allfn{
+    flex-wrap: wrap;
+    gap: 12px;
+    display: flex;
+
+
+}

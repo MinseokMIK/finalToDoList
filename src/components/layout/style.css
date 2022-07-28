@@ -1,0 +1,11 @@
+.Layout {
+  min-width: 800px;
+  max-width: 1200px;
+  width: 1000px;
+  height: 1000px;
+  
+
+  display: block;
+  
+  background: skyblue;
+}
